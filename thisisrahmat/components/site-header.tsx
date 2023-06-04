@@ -12,12 +12,14 @@ import Image from "next/image"
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background">
-      <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
+    <header className="sticky top-0 z-40 w-full bg-background">
+      <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-5">
       <Link href="/" className="flex items-center space-x-2">
         {/* <Icons.logo className="h-6 w-6" /> */}
         {/* <Logo/> */}
-        <Image src="/Rahmat.jpg" alt="Illustration of Rahmat"  className="h-6 w-6"/>
+        <Image src="/rahmat.jpg" className="h-6 w-6"   width={500}
+      height={500}
+      alt="Illustration of Rahmat" />
         <span className="inline-block font-bold">Rahmat Junaid </span>
       </Link>
 
@@ -37,18 +39,18 @@ export function SiteHeader() {
       >
       Projects
       </Link>
-      <Link
+      {/* <Link
         href="/learnings"
         className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
       >
         Learnings
-      </Link>
+      </Link> */}
         
       <Link
           target="_blank"
           rel="noreferrer"
           href="mailto:thisisrahmat@gmail.com"
-          className={buttonVariants({ variant: "outline" })}
+          className={buttonVariants({ variant: "outline", size: "sm" })}
         >
           Get in touch
         </Link>

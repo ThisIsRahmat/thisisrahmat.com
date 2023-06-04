@@ -10,19 +10,21 @@ export default function IndexPage() {
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
         Hi there! 👋🏾 
           <br/>
-           <br className="hidden sm:inline" />
+
              
 
         </h1>
-        <h3>
+        <h3 className="max-w-[700px] text-2xl text-muted-foreground">
         
-        I am <a className=""> Rahmat</a>, a software and cloud architect living in the UK.  🇬🇧
-      
+        I am <a className=""> Rahmat</a>, a software and cloud architect living in 🇬🇧
         </h3>
+        <br/>
+       
 
-        <p className="max-w-[700px] text-lg text-muted-foreground">
+        <p className="max-w-[700px] text-xl text-muted-foreground">
           I enjoy solving technichal problems and building tools online. 
-          Here you will find my  <a>side projects</a>, my <a> public learnings </a> on building and run a saas company and other long form <a> posts</a> of my thoughts on being an engineer. 
+          <br className="hidden sm:inline" />
+          Here you will find my  <a className="">side projects</a> and <a> posts</a> of my thoughts on being an engineer. 
         </p>
 
       </div>
