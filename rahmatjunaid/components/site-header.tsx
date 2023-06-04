@@ -6,12 +6,20 @@ import { Icons } from "@/components/icons"
 // import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { Logo } from "@/components/Logo"
+import Image from "next/image"
+
+
 
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background">
       <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
-      <Logo/>
+      <Link href="/" className="flex items-center space-x-2">
+        {/* <Icons.logo className="h-6 w-6" /> */}
+        {/* <Logo/> */}
+        <Image src="/Rahmat.jpg" alt="Illustration of Rahmat"  className="h-6 w-6"/>
+        <span className="inline-block font-bold">Rahmat Junaid </span>
+      </Link>
 
         <div className="flex flex-1 items-center justify-end space-x-4">
 
@@ -36,6 +44,14 @@ export function SiteHeader() {
         Learnings
       </Link>
         
+      <Link
+          target="_blank"
+          rel="noreferrer"
+          href="mailto:thisisrahmat@gmail.com"
+          className={buttonVariants({ variant: "outline" })}
+        >
+          Get in touch
+        </Link>
             <ThemeToggle />
           </nav>
         </div>
