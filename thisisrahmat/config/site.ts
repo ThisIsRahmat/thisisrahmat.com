@@ -1,29 +1,27 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Rahmat Junaid",
+  name: "Rahmat 👩🏾‍💻",
   description:
-    "Personal site of Rahmat 👩🏾‍💻",
+    "Personal site of Rahmat Junaid 👩🏾‍💻",
   mainNav: [
     {
-      title: "Home",
-      href: "/",
-    },
-    {
-      title: "Posts",
-      href: "/posts",
+      title: "Blog",
+      href: "https://blog.thisisrahmat.com/",
     },
     {
       title: "Projects",
-      href: "/project",
+      href: "/projects",
     },
-    {
-      title: "Learning log",
-      href: "/learning",
-    }
+    // {
+    //   title: "Learning log",
+    //   href: "/learning",
+    // }
   ],
   links: {
     twitter: "https://twitter.com/thisis_rahmat",
-    github: "https://github.com/thisisrahmat/rahmatjunaid.com"
+    github: "https://github.com/thisisrahmat",
+     readcv: "https://read.cv/rahmat",
+     email: "mailto:thisisrahmat@gmail.com"
   },
 }
