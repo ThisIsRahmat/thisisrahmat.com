@@ -7,6 +7,7 @@ import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { Logo } from "@/components/Logo"
 import Image from "next/image"
+import { NavItem } from "@/types/nav"
 
 interface MainNavProps {
   items?: NavItem[]
