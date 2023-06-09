@@ -1,21 +1,30 @@
-import React from "react"
+import React from "react";
+import { cn } from "@/lib/utils";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
-import { cn } from "@/lib/utils"
-import { AspectRatio } from "@/components/ui/aspect-ratio"
-
-export function ProjectCard({
+export default function ProjectCard({
   className,
+  title,
+  description,
+  imageUrl,
   ...props
-}: React.HTMLAttributes<HTMLDivElement>) {
+}: {
+  className?: string;
+  title: string;
+  description: string;
+  imageUrl: string;
+} & React.HTMLAttributes<HTMLDivElement>) {
   return (
-    <AspectRatio ratio={3 / 1} asChild>
-      <div
-        className={cn(
-          "flex items-center justify-center rounded-md border p-8",
-          className
-        )}
-        {...props}
-      />
-    </AspectRatio>
-  )
+    <div className={cn("rounded-md border p-8", className)} {...props}>
+      <div className="mb-4">
+        {/* <img
+          src={imageUrl}
+          alt={title}
+          className="w-full h-auto rounded-md"
+        /> */}
+      </div>
+      <h2 className="text-xl font-semibold">{title}</h2>
+      <p className="mt-2">{description}</p>
+    </div>
+  );
 }

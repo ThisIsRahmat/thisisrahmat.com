@@ -4,30 +4,35 @@ import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { ProjectCard } from "@/components/project-card"
 
-export default function ProjectPage() {
+const projects = [
+  {
+    title: "Project 1",
+    description: "This is the description for Project 1.",
+    imageUrl: "https://example.com/project1-image.jpg",
+  },
+  {
+    title: "Project 2",
+    description: "This is the description for Project 2.",
+    imageUrl: "https://example.com/project2-image.jpg",
+  },
+  // Add more project objects as needed
+];
+
+export function ProjectsPage() {
   return (
-    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-    <div className="flex max-w-[980px] flex-col items-start gap-2">
-      <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-     Projects
-        <br/>
-        </h1>
-
-        <div>
-        <ProjectCard>
-            <Link href="https://studywiz.co/">
-            <h1> Studywiz </h1>
-            </Link>
-          
-        </ProjectCard>
-            <br/>
-            {/* <ProjectCard>
-            <h1> This is a test </h1>
-            </ProjectCard> */}
-            </div>
-  
-
-     
-        </div>
-        </section>
-  )}
+    <div>
+      <h1>My Projects</h1>
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            description={project.description}
+            imageUrl={project.imageUrl}
+            className="bg-white"
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
