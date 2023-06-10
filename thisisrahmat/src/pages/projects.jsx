@@ -13,6 +13,7 @@ const projects = [
     stack: 'Nextjs, GPT',
     link: { href: 'https://studywiz.co/', label: 'Studywiz.co' },
     logo: <Logos.studywiz/>,
+    progress: "       "
   },
   {
     name: 'Wisetally',
@@ -21,6 +22,7 @@ const projects = [
       stack: 'Nextjs, FastAPI',
     link: { href: 'http://www.wisetally.co', label: 'Wisetally' },
     logo: <Logos.wisetally/>,
+    progress: "work in progress"
   },
  
 
@@ -71,6 +73,7 @@ export default function Projects() {
               </h2>
               <Card.Description>{project.description}</Card.Description>
               <Card.Cta>{project.stack}</Card.Cta>
+              <Card.Eyebrow>{project.progress}</Card.Eyebrow>
 
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
                 <LinkIcon className="h-6 w-6 flex-none" />
