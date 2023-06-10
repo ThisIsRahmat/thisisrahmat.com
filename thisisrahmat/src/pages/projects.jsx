@@ -24,6 +24,33 @@ const projects = [
     logo: <Logos.wisetally/>,
     progress: "work in progress"
   },
+  {
+    name: 'Jobs With Great Benefits',
+    description:
+      'Jobs with great benefits is a search engine to find the top 1% of jobs',
+      stack: 'Nextjs, FastAPI, Excel',
+    link: { href: 'http://www.jobswithgreatbenefits.com/', label: 'Jobs With Great Benefits' },
+    // logo: <Logos.wisetally/>,
+    progress: "work in progress"
+  },
+  // {
+  //   name: 'MoneyMinder',
+  //   description:
+  //     'A smart personal finance app to help with budgeting and hitting long-term financial goals. Completly open source and built in public. ',
+  //     stack: 'Nextjs, FastAPI',
+  //   link: { href: '', label: 'MoneyMinder' },
+  //   logo: <Logos.wisetally/>,
+  //   progress: "work in progress"
+  // },
+  // {
+  //   name: 'Not-tumblr',
+  //   description:
+  //     'A long term project of building a functional and usable version of tumblr in an attempt to master Golang',
+  //     stack: 'Nextjs, Golang',
+  //   link: { href: 'http://www.not-tumblr.com', label: 'Not tumblr' },
+  //   logo: <Logos.wisetally/>,
+  //   progress: "work in progress"
+  // },
  
 
 
