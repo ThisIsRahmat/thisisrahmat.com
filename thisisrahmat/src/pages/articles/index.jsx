@@ -54,7 +54,8 @@ export default function ArticlesIndex({ articles }) {
               <Article key={article.slug} article={article} />
             ))}
           </div> */}
-          <h1 className="text-2xl"> I am rebuilding my personal site <br className="hidden sm:inline"/> I have some new posts coming very soon! </h1>
+           <p className="mt-6 text-base text-xl text-pink-600 dark:text-pink-400"> I am still rebuilding this part but I have some new posts coming very soon! </p>
+          <h1 className="text-2xl">  </h1>
         </div>
       </SimpleLayout>
     </>

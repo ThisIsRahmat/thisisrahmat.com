@@ -92,6 +92,8 @@ Rahmat Junaid
             Infrastructure engineer and AI enthusiast.
           </h1>
           <p className="mt-6 text-base text-xl text-zinc-600 dark:text-zinc-400">
+Hi! 
+            <br className="hidden sm:inline" />
             I’m Rahmat, a software and cloud architect living in England 🇬🇧.
             <br className="hidden sm:inline" />
             I enjoy solving technical problems and building tools online. 
