@@ -54,7 +54,7 @@ export default function ArticlesIndex({ articles }) {
               <Article key={article.slug} article={article} />
             ))}
           </div> */}
-          <h1 className="text-2xl"> I am rebuilding my persona site <br className="hidden sm:inline"/> I have some new posts coming soon! </h1>
+          <h1 className="text-2xl"> I am rebuilding my personal site <br className="hidden sm:inline"/> I have some new posts coming very soon! </h1>
         </div>
       </SimpleLayout>
     </>
