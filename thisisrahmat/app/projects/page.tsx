@@ -20,7 +20,8 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <>
+    <div>
+    
       <div className="mx-auto flex max-w-[58rem] flex-col  space-y-4 ">
         <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
          Projects
@@ -92,6 +93,6 @@ Wisetally
 
         </div>
       </div>
-    </>
+  
   );
 }
