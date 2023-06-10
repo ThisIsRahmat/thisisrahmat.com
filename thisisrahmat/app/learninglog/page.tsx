@@ -8,7 +8,7 @@ export default function ProjectPage() {
 
             <p className="max-w-[700px] text-xl text-muted-foreground">
                 An ongoing diary of the things I am learning 
-                <p/>
+                </p>
 
             </h1>
             </div>
