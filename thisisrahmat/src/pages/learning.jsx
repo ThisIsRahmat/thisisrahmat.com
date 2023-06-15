@@ -43,9 +43,9 @@ export default function Uses() {
         <div className="space-y-20">
           <ToolsSection title="June 2023">
             <Link href="">
-            {/* <Tool title="The month of AI">
+            <Tool title="The month of AI">
 
-            </Tool> */}
+            </Tool>
             </Link>
  
           </ToolsSection>
