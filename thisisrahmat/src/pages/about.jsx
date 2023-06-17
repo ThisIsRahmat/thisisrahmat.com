@@ -51,12 +51,12 @@ export default function About() {
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5 lg:max-w-none">
-              <Image
+              {/* <Image
                 src={portraitImage}
                 alt=""
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-              />
+              /> */}
             </div>
           </div>
           <div className="lg:order-first lg:row-span-2">
@@ -67,7 +67,7 @@ export default function About() {
          
               
           <p>
-            This is an about page to show how git branches work 
+
           </p>
               
             </div>
@@ -89,7 +89,7 @@ export default function About() {
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                spencer@planetaria.tech
+                mailto:thisisrahmat@gmail.com
               </SocialLink>
             </ul>
           </div>
