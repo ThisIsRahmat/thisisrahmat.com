@@ -41,14 +41,14 @@ export default function Uses() {
         intro="I am always trying to improve myself as an engineer, and this is my public journal of the things I am learning/reading in order to do that."
       >
         <div className="space-y-20">
-          <ToolsSection title="June 2023">
+          {/* <ToolsSection title="June 2023">
             <Link href="">
             <Tool title="The month of AI">
 
             </Tool>
             </Link>
  
-          </ToolsSection>
+          </ToolsSection> */}
         </div>
       </SimpleLayout>
     </>

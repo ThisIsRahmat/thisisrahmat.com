@@ -15,24 +15,24 @@ const projects = [
     logo: <Logos.studywiz/>,
     progress: "       "
   },
-  {
-    name: 'Wisetally',
-    description:
-      'Wisetally is an expense and time managment platform for small and medium businesses.',
-      stack: 'Nextjs, FastAPI',
-    link: { href: 'http://www.wisetally.co', label: 'Wisetally' },
-    logo: <Logos.wisetally/>,
-    progress: "work in progress"
-  },
-  {
-    name: 'Jobs With Great Benefits',
-    description:
-      'Jobs with great benefits is a search engine to find the top 1% of jobs',
-      stack: 'Nextjs, FastAPI, Excel',
-    link: { href: 'http://www.jobswithgreatbenefits.com/', label: 'Jobs With Great Benefits' },
-    // logo: <Logos.wisetally/>,
-    progress: "work in progress"
-  },
+  // {
+  //   name: 'Wisetally',
+  //   description:
+  //     'Wisetally is an expense and time managment platform for small and medium businesses.',
+  //     stack: 'Nextjs, FastAPI',
+  //   link: { href: 'http://www.wisetally.co', label: 'Wisetally' },
+  //   logo: <Logos.wisetally/>,
+  //   progress: "work in progress"
+  // },
+  // {
+  //   name: 'Jobs With Great Benefits',
+  //   description:
+  //     'Jobs with great benefits is a search engine to find the top 1% of jobs',
+  //     stack: 'Nextjs, FastAPI, Excel',
+  //   link: { href: 'http://www.jobswithgreatbenefits.com/', label: 'Jobs With Great Benefits' },
+  //   // logo: <Logos.wisetally/>,
+  //   progress: "work in progress"
+  // },
   // {
   //   name: 'MoneyMinder',
   //   description:
