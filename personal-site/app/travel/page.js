@@ -4,6 +4,9 @@
 
 import Link from 'next/link'
 import { useState } from 'react';
+
+// import FilterItem from '../components/FilterItem'
+
 import {
     ComposableMap,
     Geographies,
@@ -12,6 +15,7 @@ import {
     Graticule
   } from "react-simple-maps";
 
+  
 
   const geoUrl =
   "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json"
@@ -63,13 +67,13 @@ export default function TravelPage(){
                     <li><h3    className={`text-base text-text-lvl-4 hover:text-text-lvl-3 cursor-pointer ${
                 showYear2022 ? 'underline underline-offset-4' : ''
               }`}
-              onClick={() =>    setShowYear2023(false);
+              onClick={() =>   { setShowYear2023(false);
                 setShowYear2022(true);
                 setShowYear2021(false);
                 setShowYear2020(false);
                 setShowYear2019(false);
                 setShowYear2018(false);
-                setShowMap(false);} ><span className={showYear2022 ? 'hover:underline' : ''}>2022</span><sup className="pl-[2px] text-[10px]">1</sup></h3></li>
+                setShowMap(false);}} ><span className={showYear2022 ? 'hover:underline' : ''}>2022</span><sup className="pl-[2px] text-[10px]">1</sup></h3></li>
                     <li><h3    className={`text-base text-text-lvl-4 hover:text-text-lvl-3 cursor-pointer ${
                 showYear2021 ? 'underline underline-offset-4' : ''
               }`}

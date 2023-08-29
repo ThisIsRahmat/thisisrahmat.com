@@ -3,9 +3,10 @@
 
 
 import Link from 'next/link'
+import ProjectCard from '../../components/ProjectCard';
 
 
-export default function BooksPagePage(){
+export default function BooksPage(){
     return (
         <main className=" mx-auto w-full max-w-screen-sm px-8  md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl">
          
@@ -28,9 +29,18 @@ export default function BooksPagePage(){
 
 <div className="grid grid-cols-1 gap-6 mt-10 lg:grid-cols-2 lg:gap-10 xl:grid-cols-3">
 
-<div className="border-gray-300 rounded-xl"></div>
+<div
+                className={(
+                    "grid grid-cols-1 gap-6 mt-4",
+                    "sm:mt-20",
+                    "lg:grid-cols-2 lg:gap-10",
+                    "xl:grid-cols-3"
+                )}
+            >
 
 
+
+</div>
 </div>
             </div>
             </section>
