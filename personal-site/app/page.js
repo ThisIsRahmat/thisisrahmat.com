@@ -1,48 +1,95 @@
 
 
 import Link from 'next/link'
+import {Search, ShoppingBasket, MoveDown   } from 'lucide-react'
+import ProjectCard from '../components/ProjectCard'
 
+
+const latest_projects = [
+    {
+      title: 'Project Title 1',
+      description: 'Description of Project 1',
+      logo: 'https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456', // Adjust the path
+      year: '2022',
+      link: 'project1',
+      externalLink: false, // Adjust as needed
+      color: 'bg-black-700', // Adjust the color
+    },
+    {
+        title: 'Project Title 2',
+        description: 'Description of Project 2',
+        logo: '', // Adjust the path
+        year: '2022',
+        link: 'project1',
+        externalLink: false, // Adjust as needed
+        color: 'bg-blue-700', // Adjust the color
+      },
+    // Add more projects as needed
+  ];
 
 export default function Page(){
     return (
-        <main className=" mx-auto w-full max-w-screen-sm px-8  md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl">
-         
-         <section >
 
-            <div>
+        <main className=" mx-auto w-full max-w-screen-sm px-8 items-centre md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl">
 
-                <div className="flex flex-wrap">
-                <h2 className="w-full pt-8 sm:text-[40px] text-[20px] font-bold sm:leading-8 leading-4 inset-x-0 bottom-0 pr-8 text-text-lvl-1 lg:w-1/2"> Hi! I am Rahmat - a product engineer living in the UK  🇬🇧.</h2>
+  <div className="flex flex-col space-y-8">
 
+  <h1 className=" flex sm:text-[80px] text-[40px] font-bold   ">
+   Hi! I'm Rahmat
 
-                <div className="w-full text-text-lvl-2 mt-2 lg:w-1/2 lg:mt-[30px]"> This is my corner of the internet where I document my hobbies and technical explorations .
-                {/* <span className="inline-flex items-center mr-1"> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 13 13" className=" h-2 w-2 ml-[6px] fill-text-lvl-2"><path d="M13 1.05a1 1 0 0 0-1-1L4 0a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219L11 3.42V9a1 1 0 0 0 2 0V1.05Z"></path></svg></span> */}
+</h1>
+<div className="text-xl space-y-2">
+<p>
+I am a Software Engineer based in United Kingdom working primarily in Infrastructure/DevOps
+    </p>
+
+{/* <p> 
+
+    I have been working within DevOps/Infra teams for the past 4 years. 
+
+</p> */}
+{/* <p>
+    I spent the past year working on fullstack development - specifically learning Golang and a little typescript/javascript more specifically Nextjs framework. 
+</p> */}
+
+<p>
+    When I am not staring at screens I enjoy reading, listening to podcasts and learning new languages.
+    </p>
+<p>
+    I am always open to any new podcast or book recommendation
+</p>
+
 </div>
-                </div>
-                
 
-<div className="grid grid-cols-1 gap-6 mt-10 lg:grid-cols-2 lg:gap-10 xl:grid-cols-3">
 
-<div className="border-gray-300 rounded-xl"></div>
 
+
+
+{/* Recent Projects */}
+
+<div>
+<div className="flex items-center">
+<h3 className="text-4xl no-underline hover:underline decoration-wavy hover:underline-offset-8">  Selected Projects </h3> 
+        </div>
+        <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+    {latest_projects.map((project, index) => (
+      <ProjectCard key={index} {...project} />
+    ))}
+  </div>
+</div>
+
+{/* Recent Writings */}
+
+<div>
+<div className="flex items-center">
+<h3 className="text-4xl no-underline hover:underline decoration-wavy hover:underline-offset-8"> Selected Writings </h3> 
+        </div>
+{/* <ProjectCard>
+
+</ProjectCard> */}
 
 </div>
-            </div>
-            </section>
 
-            {/* Latest Books */}
-
-            <section></section>
-
-              {/* Latest Projects */}
-
-              <section></section>
-
-               {/* Contact me */}
-
-               <section></section>
-
-         
-        </main>
-    )
-}
+</div>
+    </main>
+        )}

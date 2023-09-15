@@ -6,14 +6,19 @@ import Footer from '../components/Footer'
 const space_grotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Rahmat ',
+  title: 'Rahmat Junaid ',
   description: 'The digital space of Rahmat Junaid',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={space_grotesk.className}><Header/> {children}<Footer/></body>
+
+      <body className='${space_grotesk.className} px-4' >
+       
+        <Header/>{children}<Footer/>
+
+          </body>
     </html>
   )
 }

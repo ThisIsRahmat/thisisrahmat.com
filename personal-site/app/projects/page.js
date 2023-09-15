@@ -2,6 +2,14 @@
 
 import Link from 'next/link'
 
+const projects = [
+    {
+        title: "Open Saas Finder",
+        logo: '',
+
+    }
+]
+
 
 export default function ProjectsPage(){
     return (
@@ -12,9 +20,19 @@ export default function ProjectsPage(){
 
                 <div className="flex flex-wrap">
                 <h2 className="w-full pt-8 sm:text-[102px] text-[60px] font-bold leading-10 inset-x-0 bottom-0 pr-8 text-text-lvl-1 lg:w-1/3">Projects</h2>
-                <div className="w-full text-text-lvl-2 mt-2 lg:w-2/3 lg:mt-[0px]">
-                I enjoy exploring different techncihal projects and here are some of my working projects.
-                     
+                <div className="w-full text-text-lvl-2 mt-2 lg:w-2/3 lg:mt-[0px] space-y-2">
+
+                    <p>
+I have a lot of ideas and I enjoy bringing them to life in my spare time.
+
+</p>
+
+
+<p>
+    My current is to practice my Golang + Nextjs(Typescript/Javascript) skills so those are the main languages I build my projects with (for now)
+</p>
+
+
                      </div>
                 </div>
                 
