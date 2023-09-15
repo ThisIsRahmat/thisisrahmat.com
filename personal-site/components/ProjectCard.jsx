@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
       )}
     >
       <div className="absolute top-3 right-3 bg-white rounded-xl px-3 py-1 text-sm bg-opacity-10 text-white">
-        {props.year}
+        {props.stack}
       </div>
       <div className="p-12 relative flex justify-center items-center">
         {props.logo && (
