@@ -12,7 +12,7 @@ export default function ProjectCard(props) {
         "hover:scale-105 hover:rotate-2"
       )}
     >
-      <div className="absolute top-3 right-3 bg-white rounded-xl px-3 py-1 text-sm bg-opacity-10 text-white">
+      <div className="absolute top-3 right-3 bg-white rounded-xl px-3 py-1 text-sm bg-opacity-10 ">
         {props.stack}
       </div>
       <div className="p-12 relative flex justify-center items-center">
@@ -29,10 +29,10 @@ export default function ProjectCard(props) {
       </div>
       <div>
         <span className="inline-flex items-center">
-          <h2 className="inline font-bold text-white">{props.title}</h2>
+          <h2 className="inline font-bold ">{props.title}</h2>
         </span>
         {props.description && (
-          <p className="text-white opacity-80">{props.description}</p>
+          <p className=" opacity-80">{props.description}</p>
         )}
       </div>
     </Link>

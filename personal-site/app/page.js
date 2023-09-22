@@ -10,69 +10,69 @@ import ProjectCard from '../components/ProjectCard'
 export default function Page(){
     return (
 
-        <main className=" mx-auto w-full max-w-screen-sm px-8 items-centre md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl">
+        <main >
 
-  <div className="flex flex-col space-y-8">
-
-  <h1 className="flex sm:text-[30px] text-[30px] font-bold">
-  Hi! I am <span className="text-blue-500 hover:text-red-500 cursor-pointer">Rahmat</span> - a Software Engineer living in the United Kingdom.
-</h1>
-
-<div className="text-xl space-y-2">
-
-
-<p>
-    When I am not staring at screens I enjoy reading, listening to podcasts and traveling.
-    </p>
-<p>
-    I am always looking for new book or podcast recommendations. 
-    <br/>
-    <br/>
-    So send me an <Link href="mailto:thisisrahmat@gmail.com" className="hover:underline no-underline hover:text-green-700"> Email</Link> of your favourite reads + listens
+<div className="py-10">
+                <h2 className=" sm:text-[40px] text-[20px] font-bold ">Hi! My name is Rahmat Junaid</h2>
+<div className="py-4 ">
+<p className=" sm:text-[20px] text-[15px]">
+I am a Software Engineer with experience working in Platform/Infra teams with the tools: Golang, Javascript and Typescript
 </p>
 
+<p className=" sm:text-[20px] text-[15px]">
+
+    This is my corner of the internet for talking about my technichal and non-technichal interests, unbound to any algorithims.
+</p>
+</div>
+</div>
+<div className="space-y-60">
+
+
+{/* Selected Projects  */}
+
+<div className="border-t border-slate-600 flex items-center justify-between">
+  <h2 className="text-2xl">Selected Projects</h2>
+  <div className="flex items-center ">
+    
+ <div className="flex items-center no-underline hover:underline decoration-wavy hover:text-green-700">
+  <Link href="/projects" title="All Projects">
+    <div className="flex items-center space-x-2">
+      <span className="">All Projects</span>
+      <MoveRight />
+    </div>
+  </Link>
+
+  {/* <ProjectCard/> */}
 </div>
 
-
-
-
-
-{/* Recent Projects */}
-
-<div>
-<div className="flex items-center">
-<h3 className="text-4xl no-underline hover:underline decoration-wavy hover:underline-offset-8 hover:text-green-700">  Selected Projects </h3> 
-        </div>
-        <div className=" grid grid-cols-1 gap-6 mt-4
-                    sm:mt-12
-                    lg:grid-cols-2 lg:gap-10
-                    xl:grid-cols-3">
-
-
-        <ProjectCard
-                    title="Open Saas Finder"
-                    link="projects/OpenSaasFinder"
-                    description="A directory for finding Open Saas"
-                    color="bg-[#0E1F38]"
-                    logo=""
-                    logoHeight="h-[33%]"
-                    stack="Next.js"
-                />
   </div>
 </div>
 
-{/* Recent Writings */}
 
-<div>
-<div className="flex items-center">
-<h3 className="text-4xl no-underline hover:underline decoration-wavy hover:underline-offset-8 hover:text-green-700"> Selected Writings </h3> 
-        </div>
-{/* <ProjectCard>
+{/* Selected Writings  */}
 
-</ProjectCard> */}
+
+
+<div className="border-t border-slate-600 flex items-center justify-between">
+  <h2 className="text-2xl">Selected Writings</h2>
+  <div className="flex items-center ">
+    
+    <div className="flex items-center no-underline hover:underline decoration-wavy hover:text-green-700">
+    <Link href="/writing" title="All Projects">
+    <div className="flex items-center space-x-2">
+      <span className="">All Writings</span>
+      <MoveRight />
+    </div>
+  </Link>
+    </div>
+  </div>
+</div>
+
 
 </div>
 
-</div>
+
+
+
     </main>
         )}

@@ -13,7 +13,7 @@ const projects = [
 
 export default function ProjectsPage(){
     return (
-        <main className=" mx-auto w-full max-w-screen-sm px-8  md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl">
+<main>
          
          <section >
             <div>
@@ -36,11 +36,12 @@ I have a lot of project ideas and I enjoy building my ideas.
                      </div>
                 </div>
                 
-
-                {/* <ul className="mt-20 gap-x-6 gap-y-3 flex cursor-pointer flex-wrap">
+ <ul className="mt-20 gap-x-6 gap-y-3 flex cursor-pointer flex-wrap">
                     <li><h3 className="text-base text-text-lvl-4 hover:text-text-lvl-3"><span className="">Golang</span></h3></li>
                     <li><h3 className="text-base text-text-lvl-4 hover:text-text-lvl-3"><span className="">Nextjs</span></h3></li>
-                    <li><h3 className="text-base text-text-lvl-1"><span className="underline-offset-8 underline decoration-blue decoration-2">Python</span></h3></li></ul> */}
+                    {/* <li><h3 className="text-base text-text-lvl-1"><span className="underline-offset-8 underline decoration-blue decoration-2">Python</span></h3></li> */}
+                    
+                    </ul> 
 
 <div className="grid grid-cols-1 gap-6 mt-10 lg:grid-cols-2 lg:gap-10 xl:grid-cols-3">
 
