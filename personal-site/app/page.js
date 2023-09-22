@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import {Search, ShoppingBasket, MoveDown, MoveRight  } from 'lucide-react'
 import ProjectCard from '../components/ProjectCard'
+import Image from 'next/image'
 
 
 
@@ -12,7 +13,13 @@ export default function Page(){
 
         <main >
 
-<div className="py-10">
+<div className="py-10 flex flex-inline">
+  {/* <Image
+      src="/../assets/profile.jpg"
+      width={500}
+      height={500}
+      alt="Picture of the site owner"
+    /> */}
                 <h2 className=" sm:text-[40px] text-[20px] font-bold ">Hi! My name is Rahmat Junaid</h2>
 <div className="py-4 ">
 <p className=" sm:text-[20px] text-[15px]">

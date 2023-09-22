@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body className={`${space_grotesk.className} overflow-hidden lg:space-y-8 space-y-4 h-full  mx-auto max-w-9xl px-4 sm:px-6 lg:px-8 text-[#247c5c]  `}>
 
        
-      <Banner/><Header/>{children}<Footer/>
+      <Header/>{children}<Footer/>
   
 
       </body>
