@@ -34,7 +34,7 @@ I am a Software Engineer with experience working in Platform/Infra teams with th
   <h2 className="text-2xl">Selected Projects</h2>
   <div className="flex items-center ">
     
- <div className="flex items-center no-underline hover:underline decoration-wavy hover:text-green-700">
+ <div className="flex items-center no-underline hover:underline  hover:text-green-700">
   <Link href="/projects" title="All Projects">
     <div className="flex items-center space-x-2">
       <span className="">All Projects</span>
@@ -57,8 +57,8 @@ I am a Software Engineer with experience working in Platform/Infra teams with th
   <h2 className="text-2xl">Selected Writings</h2>
   <div className="flex items-center ">
     
-    <div className="flex items-center no-underline hover:underline decoration-wavy hover:text-green-700">
-    <Link href="/writing" title="All Projects">
+    <div className="flex items-center no-underline hover:underline  hover:text-green-700">
+    <Link href="/writing" title="All Writings">
     <div className="flex items-center space-x-2">
       <span className="">All Writings</span>
       <MoveRight />
