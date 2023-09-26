@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${space_grotesk.className} overflow-hidden lg:space-y-8 space-y-4 h-full  mx-auto max-w-9xl px-4 sm:px-6 lg:px-8 text-[#247c5c]  `}>
+      <body className={`${space_grotesk.className}  lg:space-y-8 space-y-4 h-full  mx-auto max-w-9xl px-4 sm:px-6 lg:px-8 text-[#247c5c]  `}>
 
        
       <Header/>{children}<Footer/>

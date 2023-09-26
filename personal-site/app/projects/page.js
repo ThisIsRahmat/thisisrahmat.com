@@ -45,7 +45,6 @@ I have a lot of project ideas and I enjoy building my ideas.
 
 <div className="grid grid-cols-1 gap-6 mt-10 lg:grid-cols-2 lg:gap-10 xl:grid-cols-3">
 
-<div className="border-gray-300 rounded-xl"></div>
 
 
 </div>

@@ -7,11 +7,12 @@ import { Github, Twitter, Mail, Linkedin, FileText, MoveUpRight } from 'lucide-r
 const navigation = [
    
 
-      { name: 'Projects', href: '/projects' },
-      { name: 'Writings', href: '/writings' },
+      // { name: 'Projects', href: '/projects' },
+      // { name: 'Writings', href: '/writings' },
       // { name: 'Books', href: '/books' },
       // { name: 'Travel', href: '/travel' },
             // { name: 'Bookmarks', href: '/bookmarks' },
+                  { name: 'Bookmarks', href: '/bookmarks' },
 ]
 
 export default function Header() {

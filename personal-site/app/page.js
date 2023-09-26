@@ -38,18 +38,22 @@ I am a Software Engineer with experience working in Platform/Infra teams with th
 {/* Selected Projects  */}
 
 <div className="border-t border-slate-600 flex items-center justify-between">
-  <h2 className="text-2xl">Selected Projects</h2>
+  <h2 className="text-2xl">Projects</h2>
   <div className="flex items-center ">
     
  <div className="flex items-center no-underline hover:underline  hover:text-green-700">
-  <Link href="/projects" title="All Projects">
+  {/* <Link href="/projects" title="All Projects">
     <div className="flex items-center space-x-2">
       <span className="">All Projects</span>
       <MoveRight />
     </div>
-  </Link>
+  </Link> */}
 
   {/* <ProjectCard/> */}
+
+  <ProjectCard
+  
+  />
 </div>
 
   </div>
@@ -61,21 +65,40 @@ I am a Software Engineer with experience working in Platform/Infra teams with th
 
 
 <div className="border-t border-slate-600 flex items-center justify-between">
-  <h2 className="text-2xl">Selected Writings</h2>
+  <h2 className="text-2xl">Writings</h2>
   <div className="flex items-center ">
     
     <div className="flex items-center no-underline hover:underline  hover:text-green-700">
-    <Link href="/writing" title="All Writings">
+    {/* <Link href="/writing" title="All Writings">
     <div className="flex items-center space-x-2">
       <span className="">All Writings</span>
       <MoveRight />
     </div>
-  </Link>
+  </Link> */}
     </div>
   </div>
 </div>
 
 
+
+{/* Contact  */}
+
+
+
+<div className="border-t border-slate-600 flex items-center justify-between">
+  <h2 className="text-2xl">Contact</h2>
+  <div className="flex items-center ">
+    
+    <div className="flex items-center no-underline hover:underline  hover:text-green-700">
+    {/* <Link href="/writing" title="All Writings">
+    <div className="flex items-center space-x-2">
+      <span className="">All Writings</span>
+      <MoveRight />
+    </div>
+  </Link> */}
+    </div>
+  </div>
+</div>
 </div>
 
 
