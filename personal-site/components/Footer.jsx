@@ -12,8 +12,8 @@ export default function Footer() {
   const year = date.getFullYear(); 
 
   return (
-    <footer className="pb-2 absolute bottom-0 inset-x-0 bg-[#247c5c] text-white">
-<nav className=" px-4  py-2 text-center lg:flex lg:justify-between">
+    <footer className=" bg-[#247c5c] text-white">
+    <nav className=" py-2 text-center lg:flex lg:justify-between max-w-7xl mx-auto">
   {/* Social Media Links */}
   <ul className="flex justify-center sm:text-[16px] text-sm sm:space-x-6 space-x-2 mb-4 lg:mb-0">
     <li className="flex items-center no-underline hover:underline decoration-wavy hover:text-black">

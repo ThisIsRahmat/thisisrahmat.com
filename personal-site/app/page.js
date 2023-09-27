@@ -35,32 +35,26 @@ I am a Software Engineer with experience working in Platform/Infra teams with th
 <div className="space-y-60">
 
 
-{/* Selected Projects  */}
+
+
+{/* Selected Projects */}
+
+
 
 <div className="border-t border-slate-600 flex items-center justify-between">
   <h2 className="text-2xl">Projects</h2>
   <div className="flex items-center ">
     
- <div className="flex items-center no-underline hover:underline  hover:text-green-700">
-  {/* <Link href="/projects" title="All Projects">
+    <div className="flex items-center no-underline hover:underline  hover:text-green-700">
+    {/* <Link href="/writing" title="All Writings">
     <div className="flex items-center space-x-2">
-      <span className="">All Projects</span>
+      <span className="">All Writings</span>
       <MoveRight />
     </div>
   </Link> */}
-
-  {/* <ProjectCard/> */}
-
-  <ProjectCard
-  
-  />
-</div>
-
+    </div>
   </div>
 </div>
-
-
-{/* Selected Writings  */}
 
 
 
@@ -78,7 +72,6 @@ I am a Software Engineer with experience working in Platform/Infra teams with th
     </div>
   </div>
 </div>
-
 
 
 {/* Contact  */}
