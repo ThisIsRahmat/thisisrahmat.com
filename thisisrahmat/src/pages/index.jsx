@@ -64,7 +64,7 @@ Rahmat Junaid
         <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
             Hi all! 👋🏾
             <br/>
-   
+             It's Rahmat here :) 
           </h1>
           <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
           I am currently rebuilding my personal site thisisrahmat.com
@@ -95,16 +95,4 @@ Rahmat Junaid
   )
 }
 
-export async function getStaticProps() {
-  if (process.env.NODE_ENV === 'production') {
-    await generateRssFeed()
-  }
 
-  return {
-    props: {
-      articles: (await getAllArticles())
-        .slice(0, 4)
-        .map(({ component, ...meta }) => meta),
-    },
-  }
-}
