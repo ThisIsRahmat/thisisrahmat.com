@@ -4,7 +4,6 @@ import Banner from '../components/Banner'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-
 const space_grotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export const metadata = {
@@ -15,14 +14,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${space_grotesk.className}  text-[#247c5c]  `}>
+      <body className={`${space_grotesk.className} flex flex-col h-full text-[#247c5c]`}>
 
-       <main className=" lg:space-y-8 space-y-4 h-full  mx-auto max-w-9xl px-4 sm:px-6 lg:px-8">
-      <Header/>
-      {children}
-      </main>
-      <Footer/>
-  
+
+        <main className="flex-1 lg:space-y-4 space-y-2 mx-auto max-w-max px-2 sm:px-6 lg:px-8">
+          <Header />
+          {children}
+        </main>
+        <Footer />
 
       </body>
     </html>
