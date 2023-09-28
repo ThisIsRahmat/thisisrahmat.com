@@ -76,67 +76,9 @@ function SocialLink({ icon: Icon, ...props }) {
 
 export default function Home({ articles }) {
   return (
-    <>
-      <Head>
-        <title>
-Rahmat Junaid
-        </title>
-        <meta
-          name="description"
-          content="I’m Rahmat Junaid, this is my personal site for documenting my technichal curiosities"
-        />
-      </Head>
-      <Container className="mt-9">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software engineer and AI enthusiast.
-          </h1>
-          <p className="mt-6 text-base text-xl text-zinc-600 dark:text-zinc-400">
-Hi! 
-            <br className="hidden sm:inline" />
-            I’m Rahmat, a software and cloud architect living in England 🇬🇧.
-            <br className="hidden sm:inline" />
-            I enjoy solving technical problems and building tools online. 
-            
-
-          </p>
-          <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://twitter.com/thisis_rahmat"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
-        
-            <SocialLink
-              href="https://github.com/thisisrahmat"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://www.linkedin.com/in/rahmat-junaid/"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
-            />
-    
-          </div>
-        </div>
-      </Container>
-      {/* <Photos /> */}
-      <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          {/* <div className="flex flex-col gap-16">
-            <h4 className="text-m  tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Most recent posts</h4>
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
-          </div> */}
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
-            {/* <Newsletter /> */}
-            {/* <Resume /> */}
-          </div>
-        </div>
-      </Container>
-    </>
+    <main>
+      
+    </main>
   )
 }
 
