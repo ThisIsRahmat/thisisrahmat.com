@@ -13,9 +13,8 @@ import {
 } from '@/components/SocialIcons'
 // import { Icons } from "@/components/icons"
 import { formatDate } from '@/lib/formatDate'
-import { generateRssFeed } from '@/lib/generateRssFeed'
-import { getAllArticles } from '@/lib/getAllArticles'
-import { IconMail } from '@tabler/icons-react';
+
+import { IconMoodSmile } from '@tabler/icons-react';
 
 
 
@@ -62,10 +61,12 @@ Rahmat Junaid
 
 
         <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
-            Hi all! 👋🏾
-            <br/>
-             It's Rahmat here :) 
-          </h1>
+            Hi all!  </h1>
+
+            <h1 className=" space-y-2 flex flex-inline text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+            It's Rahmat here 👋🏾  </h1>
+            
+          
           <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
           I am currently rebuilding my personal site thisisrahmat.com
           
