@@ -15,6 +15,7 @@ import {
 import { formatDate } from '@/lib/formatDate'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
+import { IconMail } from '@tabler/icons-react';
 
 
 
@@ -42,36 +43,6 @@ function SocialLink({ icon: Icon, ...props }) {
   )
 }
 
-// function Newsletter() {
-//   return (
-//     <form
-//       action="/thank-you"
-//       className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-//     >
-//       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-//         <MailIcon className="h-6 w-6 flex-none" />
-//         <span className="ml-3">Stay up to date</span>
-//       </h2>
-//       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-//         Get notified when I publish something new, and unsubscribe at any time.
-//       </p>
-//       <div className="mt-6 flex">
-//         <input
-//           type="email"
-//           placeholder="Email address"
-//           aria-label="Email address"
-//           required
-//           className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
-//         />
-//         <Button type="submit" className="ml-4 flex-none">
-//           Join
-//         </Button>
-//       </div>
-//     </form>
-//   )
-// }
-
-
 
 
 export default function Home({ articles }) {
@@ -87,55 +58,39 @@ Rahmat Junaid
         />
       </Head>
       <Container className="mt-9">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software engineer and AI enthusiast.
-          </h1>
-          <p className="mt-6 text-base text-xl text-zinc-600 dark:text-zinc-400">
-Hi! 
-            <br className="hidden sm:inline" />
-            I’m Rahmat, a software and cloud architect living in England 🇬🇧.
-            <br className="hidden sm:inline" />
-            I enjoy solving technical problems and building tools online. 
-            
+        <div className="max-w-2xl space-y-4">
 
-          </p>
-          <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://twitter.com/thisis_rahmat"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
-        
-            <SocialLink
-              href="https://github.com/thisisrahmat"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://www.linkedin.com/in/rahmat-junaid/"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
-            />
+
+        <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+            Hi all! 👋🏾
+            <br/>
+   
+          </h1>
+          <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+          I am currently rebuilding my personal site 'thisisrahmat.com'
+          
+          <br/>
+           the new site is dropping in the middle of October. 
+
+          </h1>
+
+          <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+         In the mean time you can follow along my coding progress on <Link className='underline text-purple-700 hover:text-black ' href="https://github.com/ThisIsRahmat/thisisrahmat.com/tree/newrebuild"> Github  </Link>
+         
+          or get a sneak peek of my new site <Link  className='underline text-blue-300 hover:text-black ' href="#"> here </Link> 
+          </h2>  
+       
+          <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+Or get in touch with me on <Link className='underline text-green-700 hover:text-black ' href="mailto:thisisrahmat@gmail.com "> Email </Link> and <Link className='underline text-red-600 hover:text-black' href="https://twitter.com/thisis_rahmat"> Twitter </Link></h2>  
+       
+
+
+
+  
+        </div>
+      </Container>
+  
     
-          </div>
-        </div>
-      </Container>
-      {/* <Photos /> */}
-      <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          {/* <div className="flex flex-col gap-16">
-            <h4 className="text-m  tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Most recent posts</h4>
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
-          </div> */}
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
-            {/* <Newsletter /> */}
-            {/* <Resume /> */}
-          </div>
-        </div>
-      </Container>
     </>
   )
 }
