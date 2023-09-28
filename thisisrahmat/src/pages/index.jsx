@@ -69,19 +69,19 @@ Rahmat Junaid
           <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
           I am currently rebuilding my personal site 'thisisrahmat.com'
           
-          <br/>
-           the new site is dropping in the middle of October. 
+
+           the new site is dropping in the middle of October (2023). 
 
           </h1>
 
-          <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+          {/* <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
          In the mean time you can follow along my coding progress on <Link className='underline text-purple-700 hover:text-black ' href="https://github.com/ThisIsRahmat/thisisrahmat.com/tree/newrebuild"> Github  </Link>
          
           or get a sneak peek of my new site <Link  className='underline text-blue-300 hover:text-black ' href="#"> here </Link> 
           </h2>  
-       
+        */}
           <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
-Or get in touch with me on <Link className='underline text-green-700 hover:text-black ' href="mailto:thisisrahmat@gmail.com "> Email </Link> and <Link className='underline text-red-600 hover:text-black' href="https://twitter.com/thisis_rahmat"> Twitter </Link></h2>  
+          In the mean time you can get in touch with me on <Link className='underline text-green-700 hover:text-black ' href="mailto:thisisrahmat@gmail.com "> Email </Link> and <Link className='underline text-red-600 hover:text-black' href="https://twitter.com/thisis_rahmat"> Twitter </Link></h2>  
        
 
 
