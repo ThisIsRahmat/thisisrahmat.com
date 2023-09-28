@@ -67,7 +67,7 @@ Rahmat Junaid
    
           </h1>
           <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
-          I am currently rebuilding my personal site 'thisisrahmat.com'
+          I am currently rebuilding my personal site thisisrahmat.com
           
 
            the new site is dropping in the middle of October (2023). 
