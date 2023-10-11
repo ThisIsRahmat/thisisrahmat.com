@@ -1,7 +1,7 @@
 
 
 import Link from 'next/link'
-import {Search, ShoppingBasket, MoveDown, MoveRight  } from 'lucide-react'
+import {Search, ShoppingBasket, MoveDown, MoveRight} from 'lucide-react'
 import ProjectCard from '../components/ProjectCard'
 import Image from 'next/image'
 
@@ -13,7 +13,7 @@ export default function Page(){
 
         <main >
 
-<div className="py-10 flex flex-inline">
+<div className="py-10 grid grid-col">
   {/* <Image
       src="/../assets/profile.jpg"
       width={500}
@@ -32,33 +32,70 @@ I am a Software Engineer with experience working in Platform/Infra teams with th
 </p>
 </div>
 </div>
-<div className="space-y-60">
+<div className="">
 
 
 
 
-{/* Selected Projects */}
+{/*  Projects */}
 
 
-
-<div className="border-t border-slate-600 flex items-center justify-between">
+<div>
+  {/* Projects Header */}
+<div className="border-[#247c5c] border-t-4  flex items-center justify-between">
   <h2 className="text-2xl">Projects</h2>
   <div className="flex items-center ">
     
     <div className="flex items-center no-underline hover:underline  hover:text-green-700">
-    {/* <Link href="/writing" title="All Writings">
+   {/* <Link href="/writing" title="All Writings">
     <div className="flex items-center space-x-2">
-      <span className="">All Writings</span>
+      <span className="">All Projects</span>
       <MoveRight />
     </div>
   </Link> */}
+
+
+
+
+
     </div>
   </div>
 </div>
 
 
+<div className="grid sm:grid-cols-3 grid-rol-3 gap-2 pb-2 sm:py-8  ">
 
-<div className="border-t border-slate-600 flex items-center justify-between">
+
+
+{/* Project Cards */}
+<div className="rounded-xl px-4 py-2 border-2 sm:h-full  lg:w-full sm:max-w-1/4 border-[#247c5c]">
+<Link href="https://opensaasfinder.com/" className="flex items-center">
+  <Search className="mr-2" />
+  OpenSaas Finder
+</Link>
+<p className="text-sm">
+A directory for finding OpenSource alternatives to common Saas products
+</p>
+  </div>
+
+
+
+
+  <div className="rounded-xl px-4 py-2 border-2 md:h-full lg:w-full sm:max-w-1/4 border-[#247c5c]">
+<Link href="https://opensaasfinder.com/" className="flex items-center">
+  <Search className="mr-2" />
+  OpenSaas Finder
+</Link>
+<p className="text-sm">
+A directory for finding OpenSource alternatives to common Saas products
+</p>
+  </div>
+  </div>
+  
+
+  </div>
+
+<div className="border-[#247c5c] border-t-4  flex items-center justify-between">
   <h2 className="text-2xl">Writings</h2>
   <div className="flex items-center ">
     
@@ -78,7 +115,7 @@ I am a Software Engineer with experience working in Platform/Infra teams with th
 
 
 
-<div className="border-t border-slate-600 flex items-center justify-between">
+<div className="border-[#247c5c] border-t-4 flex items-center justify-between">
   <h2 className="text-2xl">Contact</h2>
   <div className="flex items-center ">
     

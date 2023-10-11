@@ -12,7 +12,7 @@ const navigation = [
       // { name: 'Books', href: '/books' },
       // { name: 'Travel', href: '/travel' },
             // { name: 'Bookmarks', href: '/bookmarks' },
-                  { name: 'Bookmarks', href: '/bookmarks' },
+                  // { name: 'Bookmarks', href: '/bookmarks' },
 ]
 
 export default function Header() {
@@ -21,10 +21,10 @@ export default function Header() {
   return (
 
     // bg for dclicked link: bg-[#2d9ad1]
-    <header className=" ">
+    <header className=" sm:pt-8">
 
-      <nav className=" relative top-0  pb-2 flex items-center justify-between pt-4  sm:py-2  md:justify-between">
-        <div className="flex items-center gap-x-2">
+      <nav className=" relative pb-2 flex  border-[#247c5c] border-t-4  justify-between   sm:py-2  md:justify-between">
+        <div className="flex  items-center gap-x-2">
 
   {/* <div>
     <Link href="/">

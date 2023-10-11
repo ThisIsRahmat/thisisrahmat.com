@@ -14,14 +14,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${space_grotesk.className} flex flex-col h-full text-[#247c5c]`}>
+      <body className={`${space_grotesk.className} flex flex-col h-screen  text-[#247c5c]`}>
 
 
-        <main className="flex-1 lg:space-y-4 space-y-2 mx-auto max-w-max px-2 sm:px-6 lg:px-8">
+        <main className="flex-1 lg:space-y-4  space-y-2 mx-auto max-w-max px-2  sm:px-24 lg:px-40">
           <Header />
           {children}
+          <Footer />
         </main>
-        <Footer />
+     
 
       </body>
     </html>
