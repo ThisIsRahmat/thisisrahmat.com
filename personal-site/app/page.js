@@ -100,6 +100,14 @@ export default function Page(){
         icon="Search"
       />
 
+<ProjectCard
+        title="Expense Crunch"
+        description=" A price comparison site for finding the best deals on your weekly shop"
+        link="http://expensecrunch.com/"
+        icon="Search"
+      />
+
+
 
 
   </div>
