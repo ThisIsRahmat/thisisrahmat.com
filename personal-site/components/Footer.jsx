@@ -23,7 +23,7 @@ export default function Footer() {
     
 
   {/* Copyright Text */}
-  <p className="text-[10px] sm:text-[16px] ">
+  <p className="text-[16px] sm:text-[16px] ">
     &copy; Rahmat Junaid {year} 
   </p>
 </nav>

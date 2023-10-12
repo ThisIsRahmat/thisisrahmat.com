@@ -32,12 +32,12 @@ export default function Header() {
     </Link>
   </div> */}
 
-          <div className="hidden lg:flex  ">
+          <div className=" lg:flex  ">
   
               <Link href="/"  className=" hover:underline no-underline  py-1 px-2 sm:text-[18px] text-m leading-6">
-               {/* <button className="border border-green-600 hover:bg-green-700 hover:text-white px-2 py-1 rounded-full"> */}
+              
                Rahmat Junaid
-                {/* </button> */}
+      
               </Link>
    
        
