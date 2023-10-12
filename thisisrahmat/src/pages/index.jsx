@@ -46,6 +46,11 @@ function SocialLink({ icon: Icon, ...props }) {
 
 export default function Home({ articles }) {
   return (
+
+    <main>
+      
+    </main>
+
     <>
       <Head>
         <title>
@@ -93,6 +98,7 @@ Rahmat Junaid
   
     
     </>
+
   )
 }
 
