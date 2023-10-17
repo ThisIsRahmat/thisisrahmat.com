@@ -136,7 +136,7 @@ export default function Page(){
 <div className="sm:flex sm:pt-20 px-2 flex flex-row">
 <div className="sm:text-[120px] sm:w-4/5 invisible sm:visible ">
 
-Say Hi!
+Get in touch: 
 
 </div>
 
