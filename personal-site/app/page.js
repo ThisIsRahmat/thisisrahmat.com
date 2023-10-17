@@ -100,12 +100,12 @@ export default function Page(){
         icon="Search"
       />
 
-<ProjectCard
+{/* <ProjectCard
         title="Expense Crunch"
         description=" A price comparison site for finding the best deals on your weekly shop"
         link="http://expensecrunch.com/"
         icon="Search"
-      />
+      /> */}
 
 
 
@@ -156,7 +156,7 @@ Say Hi!
 
     <div className="flex items-center space-x-2 ">
 
-    <Link href="https://twitter.com/thisis_rahmat">
+    <Link href="https://github.com/ThisIsRahmat">
     <div className="flex items-center ">
       <span className=""> Github</span>
       <MoveUpRight size={18} />
@@ -165,7 +165,7 @@ Say Hi!
     </div>
  
     <div className="flex items-center space-x-2  ">
-    <Link href="https://twitter.com/thisis_rahmat">
+    <Link href="https://read.cv/rahmat">
     <div className="flex items-center  ">
       <span className=""> read.cv</span>
       <MoveUpRight size={18} />
