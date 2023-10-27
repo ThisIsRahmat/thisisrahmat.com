@@ -17,7 +17,7 @@ export default function Header() {
   return (
 
     // bg for dclicked link: bg-[#2d9ad1]
-    <header className=" sm:pt-8">
+    <header className=" pt-2 sm:pt-8">
 
       <nav className=" relative pb-2 flex  border-[#247c5c] border-b-2  justify-between   sm:py-2  md:justify-between">
         <div className="flex  items-center gap-x-2">
