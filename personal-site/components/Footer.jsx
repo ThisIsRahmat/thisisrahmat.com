@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="sm:pb-8 pb-4 sticky top-[100vh]">
 
 
-<nav className="  flex items-center border-[#247c5c] border-b-4  justify-between pt-4  sm:py-2  md:justify-between">
+<nav className="  flex items-center border-[#247c5c] border-t-2  justify-between pt-4  sm:py-2  md:justify-between">
     {/* <nav className="  border-[#247c5c] border-b-4 py-2 text-center lg:flex lg:justify-between max-w-7xl mx-auto"> */}
   {/* Social Media Links */}
     

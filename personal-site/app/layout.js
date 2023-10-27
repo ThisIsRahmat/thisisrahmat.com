@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="h-full w-full">
+    <html lang="en" className="h-full w-full overflow-x-hidden">
       <body className={`${space_grotesk.className} flex flex-col h-screen  text-[#247c5c]`}>
 
 
